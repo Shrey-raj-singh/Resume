@@ -176,6 +176,9 @@
         margin-top: -40px;
         font-size: 8px;
     }
+    .project-card . project-content{
+    margin-top:0px;
+    }
     .refrence p{
         font-size: 8px;
         /* margin-bottom: -30px; */
