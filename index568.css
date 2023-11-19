@@ -116,5 +116,39 @@
         font-size: 8px;
         /* background-color: #ac3b3b; */
     }
+    .project-list-des p{
+        font-size: 8px;
+        display: block;
+        margin: 0%;
+    }
     
+.project-card {
+    min-width: 100%;
+    max-width: 100%;
+    /* background-color: azure; */
+    display: flex;
+    margin-bottom: 5%;
+}
+.achievements-li li {
+    font-size: 9px;
+}
+.achievements {
+    font-size: 16px;
+}
+
+.lower-margin{
+    margin-top: -40px;
+    font-size: 8px;
+}
+.refrence p{
+    font-size: 8px;
+    /* margin-bottom: -30px; */
+}
+.low-margin{
+    margin-top: 0px;
+}
+.low-margin p{
+    margin-top: 5px;
+}
+
 }

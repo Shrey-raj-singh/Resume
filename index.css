@@ -284,8 +284,8 @@ a:hover {
     font-weight: 500;
 }
 
-.achievements-li {
-    font-size: 9px;
+.achievements-li li {
+    font-size: 11px;
 }
 
 .skills {
