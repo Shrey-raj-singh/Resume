@@ -1,0 +1,120 @@
+@media (max-width: 568px) {
+    section {
+        margin: 20px auto;
+    }
+
+    #head-div {
+        right: 28%;
+        min-width: 128%;
+        max-width: 128%;
+        min-height: 150px;
+        max-height: 150px;
+    }
+
+    #bg-right-top,
+    #bg-left-top {
+        min-height: 212px;
+        max-height: 212px;
+    }
+
+    #profile-image img {
+        min-width: 110px;
+        max-width: 110px;
+        min-height: 110px;
+        max-height: 110px;
+    }
+
+
+    #head-content {
+        min-height: 110px;
+        max-height: 110px;
+    }
+
+    #head-name {
+        /* font-size: 15px; */
+        margin-top: -25px;
+        margin-bottom: -21px;
+        font-size: 22px;
+        font-weight: bolder;
+    }
+
+    #head-proffesion {
+        margin-bottom: -8px;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    #head-details {
+        font-size: 10.5px;
+    }
+
+
+    #bg-right-low,
+    #bg-left-low {
+        min-height: 515px;
+    }
+
+    .container-header {
+        font-size: 18px;
+    }
+
+    .contact-info-logo img {
+        min-width: 20px;
+        max-width: 20px;
+        min-height: 20px;
+        max-height: 20px;
+    }
+
+    .contact-info-text p {
+        font-size: 8px;
+    }
+
+    .education-details-clg p {
+        font-size: 8px;
+        font-weight: 500;
+    }
+
+    .achievements-li {
+        font-size: 8px;
+    }
+
+
+    .small-circle-brown-filled {
+        min-width: 6px;
+        max-width: 6px;
+        min-height: 6px;
+        max-height: 6px;
+    }
+
+    .small-circle-brown-empty {
+        min-width: 6px;
+        max-width: 6px;
+        min-height: 6px;
+        max-height: 6px;
+    }
+    .skills-value-pair{
+        min-width: 80%;
+        max-width: 80%;
+        /* background-color: beige; */
+        min-height: 10px;
+        max-height: 10px;
+        display: flex;
+        margin: 6% 0%;
+        padding-left: 7%;
+    }
+    .skills-key-pair{
+        min-width: 80%;
+        max-width: 80%;
+        /* background-color: beige; */
+        min-height: 10px;
+        max-height: 10px;
+        display: flex;
+        margin: 8.5% 0%;
+        padding-left: 7%;
+    }
+    .skills-key-pair b{
+        font-size: 8px;
+        /* background-color: #ac3b3b; */
+    }
+    
+}

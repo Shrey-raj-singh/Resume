@@ -4,7 +4,7 @@ body {
     padding: 0;
     background-color: #f4f4f4;
 }
-
+/* 
 header {
     background-color: #002060;
     color: #ffffff;
@@ -12,12 +12,12 @@ header {
     padding: 1em 0;
     max-height: 150px;
     display: flex;
-}
+} */
 
 section {
     max-width: 800px;
     margin: 20px auto;
-    padding: 20px;
+    padding: 20px 30px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
@@ -74,14 +74,10 @@ a:hover {
     max-width: 30px;
     min-height: 30px;
     max-height: 30px;
-    /* background-image: url(Pic_shrey.jpeg); */
     background-size: 100%;
     border-radius: 100%;
     background-repeat: no-repeat;
     margin-right: 3%;
-    /* margin-left: auto; */
-    /* position: relative; */
-
 }
 #w-image {
     background-image: url(./images/WhatsApp_icon.png);

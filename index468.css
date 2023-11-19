@@ -1,0 +1,89 @@
+
+@media (max-width: 468px) {
+    section {
+        margin: 15px auto;
+    }
+    #bg-right {
+        min-height: 550px;
+    }
+    #head-div {
+        right: 28%;
+        min-width: 128%;
+        max-width: 128%;
+        min-height: 130px;
+        max-height: 130px;
+    }
+    #bg-right-top,#bg-left-top {
+        min-height: 190px;
+        max-height: 190px;
+    }
+    #profile-image img{
+        min-width: 90px;
+        max-width: 90px;
+        min-height: 90px;
+        max-height: 90px;
+    }
+
+
+    #head-content {
+        min-width: 60%;
+        max-width: 60%;
+        min-height: 90px;
+        max-height: 90px;
+    }
+    #head-name{
+        /* font-size: 15px; */
+        margin-top: -11px;
+        margin-bottom: -10px;
+        font-size: 12px;
+        font-weight: bolder;
+    }
+    #head-proffesion{
+        margin-bottom: -8px;
+        font-size: 10px;
+        font-weight: bold;
+    }
+    #head-details{
+        font-size: 8px;
+    }
+
+
+    #bg-right-low,#bg-left-low {
+        margin-top: -3px;
+        min-height: 360px;
+    }
+    .container-header {
+        font-size: 13px;
+    }
+
+    .contact-info-logo img {
+        min-width: 15px;
+        max-width: 15px;
+        min-height: 15px;
+        max-height: 15px;
+    }
+
+    .contact-info-text p {
+        font-size: 6px;
+    }
+    .education-details-clg p{
+        font-size:6px;
+        font-weight: 500;
+    }
+    .achievements-li {
+        font-size: 6px;
+    }
+    .small-circle-brown-filled {
+        min-width: 3px;
+        max-width: 3px;
+        min-height: 3px;
+        max-height: 3px;
+    }
+
+    .small-circle-brown-empty {
+        min-width: 3px;
+        max-width: 3px;
+        min-height: 3px;
+        max-height: 3px;
+    }
+}

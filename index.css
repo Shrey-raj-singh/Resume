@@ -1,0 +1,431 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+section {
+    max-width: 550px;
+    margin: 20px auto;
+    padding: 20px 30px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 3px;
+    font-size: 10px;
+}
+
+a {
+    color: rgb(116, 84, 60);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#back-ground-top {
+    min-width: 100%;
+    display: flex;
+}
+
+#bg-left-top {
+    min-width: 36%;
+    max-width: 36%;
+    z-index: 1;
+    background-color: rgb(228, 220, 206);
+}
+
+#bg-right-top {
+    min-width: 64%;
+    max-width: 64%;
+    /* min-height: 285px;
+    max-height: 285px; */
+    z-index: 1;
+}
+
+#head-div {
+    position: relative;
+    top: 30px;
+    right: 28%;
+    min-width: 128%;
+    max-width: 128%;
+    min-height: 180px;
+    background-color: rgb(256, 244, 244);
+    display: flex;
+}
+
+#bg-right-top,
+#bg-left-top {
+    min-height: 245px;
+    max-height: 245px;
+}
+
+/* #head-div {
+    position: relative;
+    top: 30px;
+    right: 26%;
+    min-width: 126%;
+    max-width: 126%;
+    min-height: 220px;
+    z-index: 4;
+    background-color: rgb(250, 242, 241);
+    display: flex;
+} */
+
+/* #profile-image {
+    position: relative;
+    top: 12px;
+    right: 14%;
+    border-radius: 100%;
+    border: 7px solid white;
+    min-width: 180px;
+    max-width: 180px;
+    min-height: 180px;
+    max-height: 180px;
+    background-image: url(./images/Pic_shrey.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    z-index: 2;
+} */
+
+#profile-image img {
+    position: relative;
+    top: 12px;
+    right: 50%;
+    border-radius: 100%;
+    border: 7px solid white;
+
+    min-width: 140px;
+    max-width: 140px;
+    min-height: 140px;
+    max-height: 140px;
+
+    /* background-image: url(./images/Pic_shrey.jpeg); */
+    background-size: 100%;
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+
+#head-content {
+    position: relative;
+    /* top: 40px; */
+    margin: auto 0%;
+    /* right: 5%; */
+    min-width: 63%;
+    max-width: 63%;
+    /* min-height: 180px;
+    max-height: 180px; */
+    /* background-color: aquamarine; */
+}
+
+#head-content {
+    min-height: 140px;
+    max-height: 140px;
+}
+
+/* #head-name{
+    margin-top: -25px;
+    margin-bottom: -28px;
+    font-size: 36px;
+    font-weight: bolder;
+} */
+
+#head-name {
+    margin-top: -25px;
+    margin-bottom: -21px;
+    font-size: 28px;
+    font-weight: bolder;
+}
+
+/* #head-proffesion{
+    margin-bottom: -12px;
+    font-size: 18px;
+    font-weight: bold;
+} */
+#head-proffesion {
+    margin-bottom: -5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* #head-details{
+    font-size: 15px;
+} */
+#head-details {
+    font-size: 11px;
+}
+
+#back-ground-low {
+    min-width: 100%;
+    display: flex;
+}
+
+#bg-left-low {
+    min-width: 28%;
+    max-width: 28%;
+    z-index: 1;
+    padding: 0% 4%;
+    background-color: rgb(228, 220, 206);
+    margin-top: -2px;
+}
+
+.left-container {
+    min-width: 100%;
+}
+
+/* .container-header {
+    font-size: 25px;
+    font-weight: bolder;
+    margin-bottom: -7px;
+} */
+.container-header {
+    font-size: 21px;
+    font-weight: bolder;
+    margin-bottom: -7px;
+}
+
+.container-content {
+    padding: 0% 2%;
+}
+
+.contact-cards {
+    display: flex;
+    max-height: 38px;
+    margin-bottom: 10px;
+}
+
+/* .contact-info-logo img{
+    padding-top: 4px;
+    min-width: 30px;
+    max-width: 30px;
+    min-height: 30px;
+    max-height: 30px;
+} */
+.contact-info-logo img {
+    padding-top: 4px;
+    min-width: 25px;
+    max-width: 25px;
+    min-height: 25px;
+    max-height: 25px;
+}
+
+.vertical-line-brown {
+    min-width: 3px;
+    background-color: rgb(116, 84, 60);
+    margin-left: 6%;
+    margin-right: 4%;
+}
+
+.contact-info-text {
+    /* background-color: rgb(55, 31, 76); */
+    text-align: center;
+    align-items: center;
+    /* max-height: 30px; */
+}
+
+/* .contact-info-text p {
+    font-size: 14px;
+    margin: 10px 0px;
+} */
+.contact-info-text p {
+    font-size: 10px;
+    margin: 10px 0px;
+}
+
+.education {
+    display: flex;
+}
+
+.small-circle-brown-filled {
+    min-width: 8px;
+    max-width: 8px;
+    min-height: 8px;
+    max-height: 8px;
+    border-radius: 100%;
+    border: 2px solid rgb(116, 84, 60);
+    background-color: rgb(116, 84, 60);
+    margin: 0% 2%;
+}
+
+.small-circle-brown-empty {
+    min-width: 8px;
+    max-width: 8px;
+    min-height: 8px;
+    max-height: 8px;
+    border-radius: 100%;
+    border: 2px solid rgb(116, 84, 60);
+    margin: 0% 2%;
+    /* background-color: rgb(116, 84, 60); */
+}
+
+.education-details-clg {
+    min-width: 100%;
+    min-height: 20px;
+    /* background-color: aliceblue; */
+    margin-top: -9px;
+    margin-left: 3px;
+    line-height: 12px;
+}
+
+.education-details-clg p {
+    font-size: 9px;
+    font-weight: 500;
+}
+
+.achievements-li {
+    font-size: 9px;
+}
+
+.skills {
+    /* background-color: bisque; */
+    min-width: 100%;
+    padding: 0%;
+    display: flex;
+    margin-bottom: 7%;
+}
+
+#skills-key {
+    min-width: 43%;
+    max-width: 43%;
+    /* background-color: aqua; */
+    /* min-height: 100px; */
+}
+
+#skills-value {
+    min-width: 57%;
+    max-width: 57%;
+    /* background-color: blue; */
+    /* min-height: 100px; */
+}
+
+.skills-value-pair {
+    min-width: 80%;
+    max-width: 80%;
+    /* background-color: beige; */
+    min-height: 14px;
+    max-height: 14px;
+    display: flex;
+    margin: 8% 0%;
+    padding-left: 7%;
+}
+
+.skills-key-pair {
+    min-width: 80%;
+    max-width: 80%;
+    /* background-color: beige; */
+    min-height: 14px;
+    max-height: 14px;
+    display: flex;
+    margin: 10.5% 0%;
+    padding-left: 7%;
+}
+
+.skills-key-pair b {
+    font-size: 10px;
+    /* background-color: #ac3b3b; */
+}
+
+
+
+#bg-right-low {
+    min-width: 64%;
+    max-width: 64%;
+    min-height: 515px;
+    z-index: 1;
+    padding-left: 5%;
+}
+
+.right-container {
+    min-width: 100%;
+    /* background-color: whitesmoke; */
+}
+
+.project-card {
+    min-width: 100%;
+    max-width: 100%;
+    /* background-color: azure; */
+    display: flex;
+    margin-bottom: 5%;
+}
+
+.pin-icon {
+    min-width: 15%;
+    max-width: 15%;
+    /* background-color: turquoise; */
+    min-height: 100px;
+}
+
+.pin-circle-brown-filled {
+    min-width: 8px;
+    max-width: 8px;
+    min-height: 8px;
+    max-height: 8px;
+    border-radius: 100%;
+    border: 2px solid rgb(116, 84, 60);
+    background-color: rgb(116, 84, 60);
+    margin: 8% 0%;
+}
+.pin-line-brown {
+    min-width: 1px;
+    max-width: 1px;
+    min-height: 28px;
+    max-height: 28px;
+    background-color: rgb(116, 84, 60);
+
+}
+.project-card-content {
+    min-width: 85%;
+
+}
+
+.project-name {
+    font-size: 16px;
+    text-decoration: underline;
+    margin-bottom: 2%;
+}
+
+.project-subfield p {
+    margin: 1% 0.4%;
+    padding: 0%;
+    font-size: 14px;
+}
+
+.project-list-des {
+    list-style-type: disc;
+    padding-left: 3%;
+}
+.project-list-des p{
+    font-size: 11px;
+    display: block;
+    margin: 0%;
+}
+
+.lower-margin{
+    margin-top: -40px;
+}
+.refrence p{
+    font-size: 11px;
+    margin: 0px;
+}
+.low-margin{
+    margin-top: -20px;
+}
+
+
+#download {
+    width: 20px;
+    height: 20px;
+    float: right;
+}
